@@ -1,0 +1,33 @@
+.header {
+  background-color: #f8f8f8;
+  padding: 40px;
+  text-align: center;
+}
+
+.header-content h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.header-content p {
+  font-size: 1rem;
+  color: #555;
+  max-width: 600px;
+  margin: 0 auto 20px auto;
+}
+
+.header-content button {
+  padding: 12px 24px;
+  background-color: #ff6600;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.header-content button:hover {
+  background-color: #e65c00;
+}
